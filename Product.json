@@ -208,19 +208,19 @@
                     "availability":true
                     },
                     {
-                    "id":27,
-                    "name":"Coca Zero Sugar",
-                    "description":"Nước Ngọt CoCa Không Đường ",
-                    "price":20000,
-                    "availability":true
-                    },
-                    {
-                    "id":28,
-                    "name":"Trà Chanh",
-                    "description":"Trà Chanh",
-                    "price":15000,
-                    "availability":true
-                    }
+                        "id":27,
+                        "name":"Coca Zero Sugar",
+                        "description":"Nước Ngọt CoCa Không Đường ",
+                        "price":20000,
+                        "availability":true
+                        },
+                        {
+                            "id":28,
+                        "name":"Trà Chanh",
+                        "description":"Trà Chanh",
+                        "price":15000,
+                        "availability":true
+                        }
                 ]
 
         }
