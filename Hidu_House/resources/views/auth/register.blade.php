@@ -60,7 +60,7 @@
 
                         <div class="form-group mt-4 text-center">
                             <!-- <button type="submit" class="btn btn-primary w-100">{{ __('Register') }}</button> -->
-                            <button type="submit" class="btn btn-primary w-100" style="background-color: #f2931f; font-size: 18px; color: white;">{{ __('𝙍𝙚𝙜𝙞𝙨𝙩𝙚𝙧') }}</button>
+                            <button type="submit" class="btn btn-primary w-100" style="background-color: #f2931f;  border-color: #f2931f; font-size: 18px; color: white;">{{ __('𝙍𝙚𝙜𝙞𝙨𝙩𝙚𝙧') }}</button>
                         </div>
 
                         <hr class="hr-text" data-content="Hoặc">
