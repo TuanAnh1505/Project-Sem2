@@ -4,7 +4,7 @@
 <div class="container-fluid p-0" style="background-image: url('/images/background.jpg'); background-size: cover; background-position: center; height: 100vh; display: flex; justify-content: center; align-items: center;">
     <div class="col-md-4" style="background-color: #f7f7f7; border-radius: 10px; padding: 20px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);">
         <div class="card border-0" style="background-color: transparent;">
-            <div class="card-header text-center bg-transparent" style="font-family: Arial, sans-serif; font-size: 25px; color: #f2931f;">𝙇𝙤𝙜𝙞𝙣</div>
+            <div class="card-header text-center bg-transparent" style="font-family: Arial, sans-serif; font-size: 25px; color: #f2931f;"> 𝙇𝙤𝙜𝙞𝙣</div>
             <div class="card-body">
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
