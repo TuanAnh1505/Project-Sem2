@@ -11,7 +11,7 @@
 
                     <div class="form-group mb-3">
                         <label for="email" class="col-form-label" style="font-family: Arial, sans-serif; font-size: 16px; color: #f2931f;">{{ __('Email Address') }}</label>
-                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="Gmail" autofocus>
                         @error('email')
                             <span class="invalid-feedback" role="alert">
                                 <strong>{{ $message }}</strong>

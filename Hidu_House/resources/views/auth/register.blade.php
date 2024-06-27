@@ -14,9 +14,9 @@
                         @csrf
 
                         <div class="form-group mb-3">
-                            <label for="name" class="col-form-label" style="font-family: Arial, sans-serif; font-size: 16px; color: #f2931f;">{{ __('Name') }}</label>
-                            <input id="name" type="text" class="form-control w-100 @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
-                            @error('name')
+                            <label for="UserName" class="col-form-label" style="font-family: Arial, sans-serif; font-size: 16px; color: #f2931f;">{{ __('Name') }}</label>
+                            <input id="UserName" type="text" class="form-control w-100 @error('UserName') is-invalid @enderror" name="UserName" value="{{ old('UserName') }}" required autocomplete="UserName" autofocus>
+                            @error('UserName')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>
@@ -34,9 +34,9 @@
                         </div>
 
                         <div class="form-group mb-3">
-                            <label for="phone" class="col-form-label" style="font-family: Arial, sans-serif; font-size: 16px; color: #f2931f;">{{ __('Phone Number') }}</label>
-                            <input id="phone" type="text" class="form-control w-100 @error('phone') is-invalid @enderror" name="phone" value="{{ old('phone') }}" required autocomplete="phone">
-                            @error('phone')
+                            <label for="Phone" class="col-form-label" style="font-family: Arial, sans-serif; font-size: 16px; color: #f2931f;">{{ __('Phone Number') }}</label>
+                            <input id="Phone" type="text" class="form-control w-100 @error('Phone') is-invalid @enderror" name="Phone" value="{{ old('Phone') }}" required autocomplete="Phone">
+                            @error('Phone')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
                                 </span>
