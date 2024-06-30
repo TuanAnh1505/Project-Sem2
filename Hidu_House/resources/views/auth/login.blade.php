@@ -46,7 +46,7 @@
                     </div>
 
                     <div class="form-group mb-0 text-center">
-                        <button type="submit" class="btn btn-primary w-100" style="background-color: #f2931f; font-size: 18px; color: white;">{{ __('𝙇𝙤𝙜𝙞𝙣') }}</button>
+                        <button type="submit" class="btn btn-primary w-100" style="background-color: #f2931f; border-color: #f2931f; font-size: 18px; color: white;">{{ __('𝙇𝙤𝙜𝙞𝙣') }}</button>
                     </div>
 
                     <hr class="hr-text" data-content="Hoặc">
