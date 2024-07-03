@@ -1,0 +1,228 @@
+{
+    "StoreName" : "Hidu House",
+    "Categories":{
+        "Spaghetti":{
+            "name":"Mì Spaghetti",
+            "items":[
+                {
+                    "id":1,
+                    "name": "Spaghetti Bolognese",
+                    "description": "Mì spaghetti bò bằm sốt cà chua",
+                    "price": 60000,
+                    "availability": true
+                },
+                {
+                    "id":2,
+                    "name": "Spaghetti Thịt Nguội",
+                    "description": "Mì spaghetti jăm bông sốt cà chua",
+                    "price": 60000,
+                    "availability": true
+                },
+                {
+                    "id":3,
+                    "name": "Spaghetti Napoli (Vegan)",
+                    "description": "Mì spaghetti sốt cà chua",
+                    "price": 55000 ,
+                    "availability": true
+                },
+                {
+                    "id":4,
+                    "name": "Spaghetti Chicken Mushroom",
+                    "description": "Mì spaghetti Gà , Nấm sốt sữa kem",
+                    "price": 65000,
+                    "availability": true
+                },
+                {
+                    "id":6,
+                    "name": "Spaghetti Bacon Carbonara",
+                    "description": "Mì spaghetti thịt Bacon sốt sữa kem ",
+                    "price": 65000,
+                    "availability": true
+                }
+            ]
+        },
+        "Pizza":{
+            "name":"Pizza",
+            "items":[
+                {
+                    "id":7,
+                    "name":"Pizza Bolognese",
+                    "description":"Pizza ,bò bằm, ngô ngọt,sốt cà chua, phomai Mozzarella",
+                    "price":"120000",
+                    "availability":true
+                },
+                {
+                    "id":8,
+                    "name":"Pizza Haiwaii",
+                    "description":"Pizza,, thịt Jăm bông, ngô dứa,sốt cà chua, phomai Mozzarella",
+                    "price":"120000",
+                    "availability":true
+                },
+                {
+                    "id":9,
+                    "name":"Pizza Gà Nấm",
+                    "description":"Pizza , gà, nấm,sốt cà chua, phomai Mozzarella",
+                    "price":"120000",
+                    "availability":true
+                },
+                {
+                    "id":10,
+                    "name":"Pizza Pepperoni",
+                    "description":"Pizza xúc xích Pepperoni, sốt cà chua, phomai Mozzarella",
+                    "price":"120000",
+                    "availability":true
+                },
+                {
+                    "id":11,
+                    "name":"Pizza Marghertia",
+                    "description":"Pizza , sốt cà chua, phomai Mozzarella",
+                    "price":"120000",
+                    "availability":true
+                },
+                {
+                    "id":12,
+                    "name":"Pizza Meat Lover",
+                    "description":"Pizza ,gà , bò bằm, thịt hun khói, sốt cà chua, phomai Mozzarella",
+                    "price":"120000",
+                    "availability":true
+                }
+            ]
+        },
+        "Salad":{
+            "name": "Salad",
+            "items":[
+                {
+                    "id":13,
+                    "name":"Ceasar Salad",
+                    "description":"Xà lách Romaine,Gà áp chảo, bánh mì sấy giòn, trứng cút phô mai ngọt",
+                    "price":40000,
+                    "availability":true
+                },
+                {
+                    "id":14,
+                    "name":"Russian Salad",
+                    "description":"Khoai tây, cà rốt , thịt jăm bông , ngô ngọt, đậu Hà lan",
+                    "price":40000,
+                    "availability":true
+                }
+            ]
+        },
+        "Side Dish":{
+            "name": "Đồ Ăn Kèm",
+            "items":[
+                {
+                    "id":15,
+                    "name":"Gà viên Popcrom Lắc Phomai",
+                    "description":"Gà viên Popcrom Lắc Phomai",
+                    "price":33000,
+                    "availability":true
+                },
+                {
+                    
+                    "id":16,
+                    "name":"Gà viên Popcrom ",
+                    "description":"Gà viên Popcrom ",
+                    "price":30000,
+                    "availability":true
+                },
+                {
+                    "id":17,
+                    "name":"Nem chua rán",
+                    "description":"Nem chua rán",
+                    "price":35000,
+                    "availability":true
+                },
+                {
+                    "id":18,
+                    "name":"Phô mai que ",
+                    "description":"Phô mai que",
+                    "price":10000,
+                    "availability":true
+                },
+                {
+                    "id":18,
+                    "name":"Phô mai que lớn ",
+                    "description":"Phô mai que 5 chiếc",
+                    "price":45000,
+                    "availability":true
+                },
+                {
+                    "id":20,
+                    "name":"Khoai tây chiên size vừa",
+                    "description":"Khoai tây chiên 150g ",
+                    "price":25000,
+                    "availability":true
+                },
+                {
+                    "id":21,
+                    "name":"Khoai tây chiên size lớn",
+                    "description":"Khoai tây chiên 200g ",
+                    "price":30000,
+                    "availability":true
+                },
+                {
+                    "id":21,
+                    "name":"Xúc Xích",
+                    "description":"Xúc xích 1 cái ",
+                    "price":12000,
+                    "availability":true
+                },
+                {
+                    "id":22,
+                    "name":"Xúc Xích lớn",
+                    "description":"Xúc xích 3 cái ",
+                    "price":30000,
+                    "availability":true
+                },
+                {
+                    "id":23,
+                    "name":"Garlic Bread",
+                    "description":"Bánh mì nướng bơ tỏi ",
+                    "price":25000,
+                    "availability":true
+                },
+                {
+                    "id":24,
+                    "name":"Bánh Gà (3c)",
+                    "description":"Bánh gà 3 chiếc ",
+                    "price":25000,
+                    "availability":true
+                },
+                {
+                    "id":25,
+                    "name":"Bánh Gà (5c)",
+                    "description":"Bánh gà 5 chiếc ",
+                    "price":35000,
+                    "availability":true
+                }
+            ]
+        },
+        "Drinks":{
+            "name":"Đồ Uống",
+                "items":[
+                    {
+                    "id":26,
+                    "name":"Coca Cola",
+                    "description":"Nước Ngọt CoCa ",
+                    "price":20000,
+                    "availability":true
+                    },
+                    {
+                    "id":27,
+                    "name":"Coca Zero Sugar",
+                    "description":"Nước Ngọt CoCa Không Đường ",
+                    "price":20000,
+                    "availability":true
+                    },
+                    {
+                    "id":28,
+                    "name":"Trà Chanh",
+                    "description":"Trà Chanh",
+                    "price":15000,
+                    "availability":true
+                    }
+                ]
+
+        }
+    }
+}
