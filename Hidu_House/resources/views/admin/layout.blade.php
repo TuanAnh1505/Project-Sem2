@@ -5,7 +5,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <style type="text/css">
         @import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
-  
+
         body{
             margin: 0;
             font-size: .9rem;
@@ -46,7 +46,7 @@
     </style>
 </head>
 <body>
-    
+
 <div id="app">
     <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
         <div class="container">
@@ -106,6 +106,6 @@
         @yield('content')
     </main>
 </div>
-     
+
 </body>
 </html>
