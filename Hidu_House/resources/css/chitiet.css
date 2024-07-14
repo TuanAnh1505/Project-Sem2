@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.other{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 55% 45%;
+}
+
+/* CSS Modal */
+.popup{
+     position: fixed;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     display: flex;
+     visibility: hidden;
+     opacity: 0;
+     transform: opacity linear 0.2s;
+}
+.popup:target{
+    visibility: visible;
+    opacity: 1;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.2);
+
+}
+.modal_body{
+    width: 600px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.sp{
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+h4{
+    font-size: 20px;
+    color: gray;
+}
+.sl{
+    margin: 10px 0px;
+}
+.infor h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0px;
+}
+.giasp{
+    color: tomato;
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    margin: 10px 0px;
+    padding: 5px 0px;
+}
+.giasp-popup{
+    color: tomato;
+    border: none;
+    padding: 3px 0px;
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.close{
+    float: right;
+    font-size: 30px;
+    color: gray;
+    margin: 5px 10px;
+}
+.dh{
+    margin: 0px 0px 0px 170px;
+}
+.dh input{
+    width: 250px;
+    padding: 10px 0px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
+.modal_inter h3{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
+.splq h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px 0px;
+}
+.spdm{
+    width: 300px;
+    height: 400px;
+    
+}
+.dm{
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.spdm img{
+    width: 100%;
+}
+.tsplq{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center; 
+}
+.gsplq{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chon{
+    border-radius: 5px;
+    background-color: tomato;
+    margin: auto;
+    margin-left: 70px; 
+}
+.gia{
+    margin-top: 20px;
+    font-size: 30px;
+    color: tomato;
+    font-weight: 700;
+}
+

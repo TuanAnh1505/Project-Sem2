@@ -7,56 +7,97 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
+    /**
+     * Display a listing of the categories.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function index()
     {
-        $categorys = Category::all();
-        return view('categorys.index', compact('categorys'));
+        $categories = Category::all();
+        return view('categories.index', compact('categories'));
     }
 
+    /**
+     * Show the form for creating a new category.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function create()
     {
-        return view('categorys.create');
+        return view('categories.create');
     }
 
+    /**
+     * Store a newly created category in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
     public function store(Request $request)
     {
-        $request->validate([
-            'Name' => 'required|string|max:255',
+        $validatedData = $request->validate([
+            'Name' => 'required|string|max:255|unique:categorys,Name',
         ]);
 
-        Category::create($request->all());
+        Category::create($validatedData);
 
-        return redirect()->route('categorys.index')
-                        ->with('success', 'Category created successfully.');
+        return redirect()->route('categories.index')
+            ->with('success', 'Category created successfully.');
     }
 
+    /**
+     * Display the specified category.
+     *
+     * @param  \App\Models\Category  $category
+     * @return \Illuminate\Http\Response
+     */
     public function show(Category $category)
     {
-        return view('categorys.show', compact('category'));
+        return view('categories.show', compact('category'));
     }
 
+    /**
+     * Show the form for editing the specified category.
+     *
+     * @param  \App\Models\Category  $category
+     * @return \Illuminate\Http\Response
+     */
     public function edit(Category $category)
     {
-        return view('categorys.edit', compact('category'));
+        return view('categories.edit', compact('category'));
     }
 
+    /**
+     * Update the specified category in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  \App\Models\Category  $category
+     * @return \Illuminate\Http\Response
+     */
     public function update(Request $request, Category $category)
     {
-        $request->validate([
-            'Name' => 'required|string|max:255',
+        $validatedData = $request->validate([
+            'Name' => 'required|string|max:255|unique:categorys,Name,' . $category->Id . ',Id',
         ]);
 
-        $category->update($request->all());
+        $category->update($validatedData);
 
-        return redirect()->route('categorys.index')
-                        ->with('success', 'Category updated successfully.');
+        return redirect()->route('categories.index')
+            ->with('success', 'Category updated successfully');
     }
 
+    /**
+     * Remove the specified category from storage.
+     *
+     * @param  \App\Models\Category  $category
+     * @return \Illuminate\Http\Response
+     */
     public function destroy(Category $category)
     {
         $category->delete();
 
-        return redirect()->route('categorys.index')
-                        ->with('success', 'Category deleted successfully.');
+        return redirect()->route('categories.index')
+            ->with('success', 'Category deleted successfully');
     }
 }

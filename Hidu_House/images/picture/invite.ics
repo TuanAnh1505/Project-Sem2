@@ -1,0 +1,173 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 16.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VTIMEZONE
+TZID:SE Asia Standard Time
+BEGIN:STANDARD
+DTSTART:16010101T000000
+TZOFFSETFROM:+0700
+TZOFFSETTO:+0700
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTACH:CID:18a901d7d778$9cc0d710$
+ATTENDEE;CN=nhimcaptin@gmail.com;RSVP=TRUE:mailto:nhimcaptin@gmail.com
+ATTENDEE;CN=viet.nguyen@bmbsoft.com.vn;CUTYPE=RESOURCE;ROLE=NON-PARTICIPANT
+	;RSVP=TRUE:mailto:viet.nguyen@bmbsoft.com.vn
+ATTENDEE;CN=hau.nguyen@bmbsoft.com.vn;CUTYPE=RESOURCE;ROLE=NON-PARTICIPANT;
+	RSVP=TRUE:mailto:hau.nguyen@bmbsoft.com.vn
+ATTENDEE;CN=mao.nguyen@bmbsoft.com.vn;CUTYPE=RESOURCE;ROLE=NON-PARTICIPANT;
+	RSVP=TRUE:mailto:mao.nguyen@bmbsoft.com.vn
+CLASS:PUBLIC
+CREATED:20211112T035144Z
+DESCRIPTION:Dear Mr. Doanh\,\n\nWe appreciate your interest in BMBSOFT VIET
+	 NAM and Fresher Frontend. Having reviewed your curriculum vitae\, we were
+	 impressed by your qualifications and experience. Therefore\, we would lik
+	e to schedule an interview with you for further discussion regarding the F
+	resher Frontend. The details of the interview are as below:\n\nDate: Novem
+	ber 15th \, 2021\n\nTime: 02:00 - 02:30 P.M\n\nInterview: Online via Googl
+	e meeting with Mr. Viet and Mr. Hau. \n\nPlease reply to this email to con
+	firm the interview date and time. If you have any further questions\, don
+	’t hesitate to contact us at HR BMBSOFT or  0355309719 (Ms. Anh Tho).\n\
+	n \n\nThank & Regards\n\n	\nTran Anh Tho (Ms)\n\nHuman Resource Team Leade
+	r\n\n \n\n <https://www.bmbsoft.com.vn/> \n\n	\nBMBSoft VietNam Company Li
+	mited\nMobile: (84) 97 796 1472\n\nEmail: hr@bmbsoft.com.vn <mailto:hr@bmb
+	soft.com.vn> \n\nWebsite: www.bmbsoft.com.vn <http://www.bmbsoft.com.vn/> 
+	\n\nAddress: 3rd Floor\, No. 11 Lot 4\, People's Newspaper Area\, Trinh Va
+	n Bo Street\, Xuan Phuong Ward\, Nam Tu Liem District\, Hanoi\n\n \n\n \n\
+	n \n\n \n\n
+DTEND;TZID="SE Asia Standard Time":20211115T143000
+DTSTAMP:20211112T035144Z
+DTSTART;TZID="SE Asia Standard Time":20211115T140000
+LAST-MODIFIED:20211112T034807Z
+LOCATION:viet.nguyen@bmbsoft.com.vn\; hau.nguyen@bmbsoft.com.vn\; mao.nguye
+	n@bmbsoft.com.vn
+ORGANIZER;CN=hr@bmbsoft.com.vn:mailto:hr@bmbsoft.com.vn
+PRIORITY:5
+SEQUENCE:0
+SUMMARY;LANGUAGE=en-us:[HR - BMBSOFT] INVITATION TO INTERVIEW TRAN DANH DOA
+	NH
+TRANSP:OPAQUE
+UID:040000008200E00074C5B7101A82E0080000000050F47248B3D7D701000000000000000
+	0100000009A8CC4623FEAE04B9F14633FD0D92BD0
+X-ALT-DESC;FMTTYPE=text/html:<html xmlns:v="urn:schemas-microsoft-com:vml" 
+	xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-mic
+	rosoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/
+	12/omml" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv=Co
+	ntent-Type content="text/html\; charset=us-ascii"><meta name=Generator con
+	tent="Microsoft Word 15 (filtered medium)"><!--[if !mso]><style>v\\:* {beh
+	avior:url(#default#VML)\;}\no\\:* {behavior:url(#default#VML)\;}\nw\\:* {b
+	ehavior:url(#default#VML)\;}\n.shape {behavior:url(#default#VML)\;}\n</sty
+	le><![endif]--><style><!--\n/* Font Definitions */\n@font-face\n	{font-fam
+	ily:"Cambria Math"\;\n	panose-1:2 4 5 3 5 4 6 3 2 4\;}\n@font-face\n	{font
+	-family:Calibri\;\n	panose-1:2 15 5 2 2 2 4 3 2 4\;}\n/* Style Definitions
+	 */\np.MsoNormal\, li.MsoNormal\, div.MsoNormal\n	{margin:0in\;\n	margin-b
+	ottom:.0001pt\;\n	font-size:11.0pt\;\n	font-family:"Calibri"\,sans-serif\;
+	}\na:link\, span.MsoHyperlink\n	{mso-style-priority:99\;\n	color:#0563C1\;
+	\n	text-decoration:underline\;}\na:visited\, span.MsoHyperlinkFollowed\n	{
+	mso-style-priority:99\;\n	color:#954F72\;\n	text-decoration:underline\;}\n
+	p\n	{mso-style-priority:99\;\n	mso-margin-top-alt:auto\;\n	margin-right:0i
+	n\;\n	mso-margin-bottom-alt:auto\;\n	margin-left:0in\;\n	font-size:12.0pt\
+	;\n	font-family:"Times New Roman"\,serif\;}\np.msonormal0\, li.msonormal0\
+	, div.msonormal0\n	{mso-style-name:msonormal\;\n	mso-style-priority:99\;\n
+		mso-margin-top-alt:auto\;\n	margin-right:0in\;\n	mso-margin-bottom-alt:au
+	to\;\n	margin-left:0in\;\n	font-size:12.0pt\;\n	font-family:"Times New Rom
+	an"\,serif\;}\nspan.EmailStyle19\n	{mso-style-type:personal-compose\;\n	fo
+	nt-family:"Calibri"\,sans-serif\;\n	color:windowtext\;}\n.MsoChpDefault\n	
+	{mso-style-type:export-only\;\n	font-size:10.0pt\;\n	font-family:"Calibri"
+	\,sans-serif\;}\n@page WordSection1\n	{size:8.5in 11.0in\;\n	margin:1.0in 
+	1.0in 1.0in 1.0in\;}\ndiv.WordSection1\n	{page:WordSection1\;}\n--></style
+	><!--[if gte mso 9]><xml>\n<o:shapedefaults v:ext="edit" spidmax="1026" />
+	\n</xml><![endif]--><!--[if gte mso 9]><xml>\n<o:shapelayout v:ext="edit">
+	\n<o:idmap v:ext="edit" data="1" />\n</o:shapelayout></xml><![endif]--></h
+	ead><body lang=EN-US link="#0563C1" vlink="#954F72"><div class=WordSection
+	1><p style='margin-bottom:12.0pt'><span style='color:#222222'>Dear Mr. Doa
+	nh\,</span><o:p></o:p></p><p style='margin-bottom:12.0pt'><span style='col
+	or:#222222'>We appreciate your interest in BMBSOFT VIET NAM and <b>Fresher
+	 Frontend</b>. Having reviewed your curriculum vitae\, we were impressed b
+	y your qualifications and experience. Therefore\, we would like to schedul
+	e an interview with you for further discussion regarding the<b> Fresher Fr
+	ontend</b>. The details of the interview are as below:</span><o:p></o:p></
+	p><p style='margin:0in\;margin-bottom:.0001pt'><span style='color:#222222'
+	>Date: November 15<sup>th</sup> \, 2021</span><o:p></o:p></p><p style='mar
+	gin:0in\;margin-bottom:.0001pt'><span style='color:#222222'>Time: 02:00 - 
+	02:30 P.M</span><o:p></o:p></p><p style='margin:0in\;margin-bottom:.0001pt
+	'><span style='color:#222222'>Interview: Online via Google meeting with Mr
+	. Viet and Mr. Hau. </span><o:p></o:p></p><p style='margin-bottom:12.0pt'>
+	<span style='color:#222222'>Please reply to this email to confirm the inte
+	rview date and time. If you have any further questions\, don&#8217\;t hesi
+	tate to contact us at HR BMBSOFT or&nbsp\; 0355309719 (Ms. Anh Tho).</span
+	><o:p></o:p></p><p class=MsoNormal><o:p>&nbsp\;</o:p></p><table class=MsoN
+	ormalTable border=0 cellspacing=0 cellpadding=0 width=600 style='width:5.0
+	in\;border-collapse:collapse'><tr><td width=600 colspan=2 style='width:5.0
+	in\;padding:0in 0in 3.75pt 0in'><p class=MsoNormal style='mso-line-height-
+	alt:10.5pt'><b><span style='font-family:"Arial"\,sans-serif\;color:#3C3C3B
+	'>Thank &amp\; Regards</span></b><span style='font-size:9.0pt\;font-family
+	:"Arial"\,sans-serif\;color:#3C3C3B'><o:p></o:p></span></p></td></tr><tr><
+	td width=600 colspan=2 style='width:5.0in\;padding:0in 0in 3.75pt 0in'></t
+	d></tr><tr><td width=600 colspan=2 style='width:5.0in\;padding:0in 0in 3.7
+	5pt 0in'><p class=MsoNormal style='mso-line-height-alt:10.5pt'><b><span st
+	yle='font-family:"Arial"\,sans-serif\;color:#3C3C3B'>Tran Anh Tho (Ms)</sp
+	an></b><span style='font-size:9.0pt\;font-family:"Arial"\,sans-serif\;colo
+	r:#3C3C3B'><o:p></o:p></span></p></td></tr><tr><td width=600 colspan=2 sty
+	le='width:5.0in\;padding:0in 0in 3.75pt 0in'><p class=MsoNormal style='mso
+	-line-height-alt:10.5pt'><span style='font-family:"Arial"\,sans-serif\;col
+	or:#1793D2'>Human Resource Team Leader</span><span style='font-size:9.0pt\
+	;font-family:"Arial"\,sans-serif\;color:#1793D2'><o:p></o:p></span></p></t
+	d></tr><tr><td width=600 colspan=2 style='width:5.0in\;border:none\;border
+	-top:dotted #131313 1.0pt\;padding:0in 0in 1.5pt 0in'><p class=MsoNormal s
+	tyle='line-height:10.5pt'><span style='font-size:9.0pt\;font-family:"Arial
+	"\,sans-serif\;color:#444444'>&nbsp\;<o:p></o:p></span></p></td></tr><tr><
+	td width=150 style='width:1.25in\;padding:0in 0in 0in 0in'><p class=MsoNor
+	mal style='mso-line-height-alt:10.5pt'><a href="https://www.bmbsoft.com.vn
+	/" target="_blank"><span style='font-size:9.0pt\;font-family:"Arial"\,sans
+	-serif\;color:#337AB7\;text-decoration:none'><img border=0 width=73 height
+	=73 id="Picture_x0020_1" src="cid:image001.jpg@01D7D7B3.48965AD0" alt=Logo
+	></span></a><span style='font-size:9.0pt\;font-family:"Arial"\,sans-serif\
+	;color:#444444'><o:p></o:p></span></p></td><td width=450 style='width:3.75
+	in\;padding:0in 0in 0in 0in'><table class=MsoNormalTable border=0 cellspac
+	ing=0 cellpadding=0 style='border-collapse:collapse'><tr><td style='paddin
+	g:0in 0in 0in 0in'></td></tr><tr><td style='padding:.75pt .75pt .75pt .75p
+	t'><p class=MsoNormal><b><span style='font-size:9.0pt\;font-family:"Arial"
+	\,sans-serif'>BMBSoft VietNam Company Limited</span></b><span style='font-
+	size:9.0pt\;font-family:"Arial"\,sans-serif'><br><b>Mobile</b>: (84) 97 79
+	6 1472</span><span style='font-size:12.0pt\;font-family:"Times New Roman"\
+	,serif'><o:p></o:p></span></p></td></tr><tr><td style='padding:.75pt .75pt
+	 .75pt .75pt'><p class=MsoNormal><b><span style='font-size:9.0pt\;font-fam
+	ily:"Arial"\,sans-serif'>Email</span></b><span style='font-size:9.0pt\;fon
+	t-family:"Arial"\,sans-serif'>:&nbsp\;</span><a href="mailto:hr@bmbsoft.co
+	m.vn" target="_blank"><span style='font-size:9.0pt\;font-family:"Arial"\,s
+	ans-serif\;color:blue'>hr@bmbsoft.com.vn</span></a><span style='font-size:
+	9.0pt\;font-family:"Arial"\,sans-serif'><o:p></o:p></span></p></td></tr><t
+	r><td style='padding:.75pt .75pt .75pt .75pt'><table class=MsoNormalTable 
+	border=0 cellspacing=0 cellpadding=0 style='border-collapse:collapse'><tr>
+	<td style='padding:.75pt .75pt .75pt .75pt'><p class=MsoNormal><b><span st
+	yle='font-size:9.0pt\;font-family:"Arial"\,sans-serif'>Website</span></b><
+	span style='font-size:9.0pt\;font-family:"Arial"\,sans-serif'>:&nbsp\;</sp
+	an><a href="http://www.bmbsoft.com.vn/" target="_blank"><span style='font-
+	size:9.0pt\;font-family:"Arial"\,sans-serif\;color:blue'>www.bmbsoft.com.v
+	n</span></a><span style='font-size:9.0pt\;font-family:"Arial"\,sans-serif'
+	><o:p></o:p></span></p></td></tr><tr><td style='padding:.75pt .75pt .75pt 
+	.75pt'><p class=MsoNormal><b><span style='font-size:9.0pt\;font-family:"Ar
+	ial"\,sans-serif'>Address</span></b><span style='font-size:9.0pt\;font-fam
+	ily:"Arial"\,sans-serif'>: 3rd Floor\, No. 11 Lot 4\, People's Newspaper A
+	rea\, Trinh Van Bo Street\, Xuan Phuong Ward\, Nam Tu Liem District\, Hano
+	i</span><span style='font-size:12.0pt\;font-family:"Arial"\,sans-serif'><o
+	:p></o:p></span></p></td></tr></table></td></tr></table></td></tr><tr><td 
+	width=600 colspan=2 style='width:5.0in\;border:none\;border-bottom:dotted 
+	#131313 1.0pt\;padding:1.5pt 0in 0in 0in'><p class=MsoNormal style='line-h
+	eight:10.5pt'><span style='font-size:9.0pt\;font-family:"Arial"\,sans-seri
+	f\;color:#444444'>&nbsp\;</span><span style='font-size:9.0pt\;font-family:
+	"Arial"\,sans-serif\;color:#444444'><o:p></o:p></span></p></td></tr></tabl
+	e><p class=MsoNormal><o:p>&nbsp\;</o:p></p><p class=MsoNormal><o:p>&nbsp\;
+	</o:p></p><p class=MsoNormal><o:p>&nbsp\;</o:p></p></div></body></html>
+X-MICROSOFT-CDO-BUSYSTATUS:TENTATIVE
+X-MICROSOFT-CDO-IMPORTANCE:1
+X-MICROSOFT-CDO-INTENDEDSTATUS:BUSY
+X-MICROSOFT-DISALLOW-COUNTER:FALSE
+X-MS-OLK-AUTOSTARTCHECK:FALSE
+X-MS-OLK-CONFTYPE:0
+END:VEVENT
+END:VCALENDAR
