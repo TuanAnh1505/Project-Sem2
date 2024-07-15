@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #a9011b;
+}
+#cart {
+    font-size: 15px;
+    color: #fff;
+    background: #850015 ;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 38rem;
+    padding: 12px;
+    cursor: pointer;
+    /* margin-left: 100px; */
+  }
+  
+  #cart:hover {
+    border-color: #fff;
+  }
+.pizzaex{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 87%;
+    margin: auto;
+    display: flex;
+}
+.pizzaex p{
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em
+}
+
+/* Tài khoản */
+.header__acc {
+    position: relative;
+}
+
+.header__acc {
+    font-size: 12px;
+    color: #fff;
+    background: #850015 ;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    margin-left: 6px;
+    padding: 6px;
+    cursor: pointer;
+    /* margin-left: 100px; */
+}
+
+.header__acc:hover {
+    border-color: #fff;
+}
+
+.header__acc::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: -5px;
+    width: 60px;
+    height: 20px;
+    /* background-color: red; */
+}
+
+.header__acc:hover .validater{
+    display: block;
+}
+
+.header__acc-icon {
+    color: white;
+    font-size: 30px;
+}
+
+.validater {
+    position: absolute;
+    z-index: 1;
+    top: calc(100% + 5px);
+    right: -62%;
+    width: 90px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: white;
+    cursor: default;
+    display: none;
+}
+
+.validater-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.validater-list li {
+    font-size: 13px;
+    padding: 6px 12px;
+}
+
+.validater-item {
+    color: #666;
+    text-decoration: none;
+}
+
+.validater-item:hover {
+    color: red;
+}
+
+.menu{
+    background-color: #c10a28;
+    /* position: fixed;
+    z-index: 9999; */
+    width: 100%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin: auto;
+}
+.menu ul li{
+    width: 100%;
+    list-style: none;
+    border-right: 1px solid #af0019;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    margin: auto;
+}
+.menu li a:hover{
+    color: #ffe930;
+}
+.menu li  a p{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 500;
+}
+.menu .li_lienhe{
+    border: none;
+}
+.lienhe{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.text_lienhe{
+    color: #ffff;
+    font-size: 12px;
+}
+.sdt{
+    color: #ffe930;
+    font-size: 20px;
+    text-align: center;
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+}
+.td_thucdon{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.td_thucdon img{
+    height: 20%;
+    padding-top: 9px;
+}
+.td_thucdon p{
+    font-size: 18px;
+    padding: 0 20px 0 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.thuc_don{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.thuc_don .thuc_don_pizza{
+    margin-right: 40px;
+}
+.thuc_don_pizza a{
+    text-decoration: none;
+}
+.thuc_don_pizza img{
+    margin: auto;
+    display: block;
+}
+.thuc_don_pizza p{
+    margin-top: 5px;
+    color: #ff9c00;
+    font-size: 30px;
+    text-align: center;
+}
+.thuc_don_pizza:hover p{
+    color: #c00a27;
+}
+.container{
+    margin: auto;
+    width: 87%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.container .contai{
+    width: 21%;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    margin-left: 30px;
+}
+.contai .box{
+    width: 100%;
+    border: 1px solid #e2e2e2;
+    overflow: hidden;
+    position: relative;
+}
+.contai:hover .box{
+    border: 1px solid #c00a27;
+}
+.contai .box span{
+    margin-top: 10px;
+}
+.contai .box img{
+    width: 100%;
+    overflow: hidden;
+}
+.contai .box p{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.buttons_added{
+    display: flex;
+    padding-right: 10px;
+    padding: 5px;
+}
+
+
+
+.contai .size{
+    display: flex;
+    background-color: #f4f5f7;
+    width: 96%;
+    margin: auto;
+    padding: 5px 0 5px 0;
+    border-radius:15px ;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.contai .chon_size{
+    margin-left:100px ;
+    /* display: flex; */
+    /* background-color: red; */
+}
+.contai .chon_size a{
+    margin: 0px 5px 0px 5px;
+}
+.contai .chon_size a{
+    cursor: pointer;
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 7px;
+}
+.contai .chon_size a:hover{
+    color: #c00a27;
+}
+.contai button{
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 30px;
+    width: 87px;
+    border-radius: 15px;
+    border: none;
+    background-color: #babab8;
+    cursor: pointer;
+    color: white;
+}
+.contai button:hover{
+    background-color: #c00a27;
+}
+.contai .size input{
+    width: 20px;
+    text-align: center;
+    margin-top: 3px;
+    
+}
+.contai input:focus {
+    outline: 0 !important;
+}
+.contai .box_white{
+    width: 100%;
+    height: 70%;
+    border: 1px solid white;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    background-color: white;
+}
+.contai:hover .box_white{
+    border: 1px solid #c00a27;
+    border-bottom:none ;
+    opacity: 1;
+}
+.contai .box_white .tt_chi_tiet{
+    margin-left: 10px;
+}
+.contai .box_white .tensp{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #801c1e;
+}
+.contai .box_white .thanh_phan{
+    margin-top: 10px;
+}
+.contai .box_white .thanh_phan p{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.contai .box_white .kt_gia{
+    margin-top: 15px;
+}
+.contai .box_white .gia{
+    margin-bottom: 15px;
+    display: flex;
+}
+.contai .box_white .gia img{
+    width: 10%;
+    height: 10%;
+    margin-right: 10px;
+}
+.contai .box_white .gia span{
+    margin-top: 5px;
+}
+footer{
+    /* background-image: url(footer_bg.jpg); */
+    background: transparent url(footer_bg.jpg) center center/cover no-repeat scroll;
+    /* background-color: black; */
+    /* height: 400px; */
+    text-align: center;
+    background-position: 100%;
+}
+footer img{
+    display: block;
+    margin: auto;
+    padding-top:20px ;
+}
+footer h4{
+    color: #fff000;
+    margin-top: 5px;
+}
+footer p{
+    color: white;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.dia_chi_lien_he{
+    width: 67%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.dia_chi_lien_he .lien_he{
+    width: 24%;
+}
+.dia_chi_lien_he .lien_he img{
+    width: 25%;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.dia_chi_lien_he .lien_he p{
+    margin-bottom: 5px;
+}
+.dia_chi_lien_he .lien_he a{
+    text-decoration: none;
+    color: #ffe930;
+}
+.muahang{
+    text-decoration: none;
+    color: white;
+}
+.tensz{
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.combo_sp {
+    background: transparent url(ombo_bg.jpg) center center/cover no-repeat scroll;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+}
+
+.combo_container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.combo_heading {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.combo_text {
+    display: inline-block;
+    margin: auto;
+    padding: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+}
+.combo_heading .combo_text:before, .combo_heading .combo_text:after {
+    content: '';
+    position: absolute;
+    width: 105px;
+    height: 100%;
+    right: 100%;
+    top: 0;
+    /* background-image: url(combo_bg.jpg) center center repeat-x; */
+    /* background: transparent url(ombo_bg.jpg) center center/cover no-repeat scroll; */
+ } 
+
+.combo_heading .combo_text:after {
+    right: inherit;
+    left: 100%;
+}
+
+.combo_heading .combo_text:before, .combo_heading .combo_text:after {
+    content: '';
+    position: absolute;
+    width: 105px;
+    height: 100%;
+    right: 100%;
+    top: 0;
+    /* background-image: url(combo_bg.jpg) center center repeat-x; */
+    /* background: transparent url(ombo_bg.jpg) center center/cover no-repeat scroll; */
+ } 
+
+.combo_title {
+    color: #ff9c00;
+    font-family: Sriracha;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 55px;
+}
+
+.combo_item-colum {
+    display: flex;
+    justify-content: space-between;
+}
+
+.combo_item {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.combo_thumb img{ 
+    width: 100%;
+}
+
+.combo_title_addcart {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid #626262;
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.combo_title_addcart h4 {
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: Sriracha;
+    margin: 0;
+    padding: 0;
+}
+
+.combo_title_addcart a {
+    border: none;
+    background: #c00a27;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 5px 10px 0;
+    border-radius: 25px;
+    height: 24px;
+}
+
+.combo_info_price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    padding: 0 15px 0 0;
+}
+
+.combo_info_price span {
+    display: block;
+    font-size: 24px;
+    font-family: Sriracha;
+    color: #fff600;
+}
+
+.combo_desc {
+    display: block;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.combo_sp{
+    background-image: url('combo_bg.jpg');
+    margin: 50px 0px;
+}

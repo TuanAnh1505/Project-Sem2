@@ -1,0 +1,338 @@
+/* :root {
+    --white-color: #FFF;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #c00a27;
+    --border-color: #dbdbdb;
+    --star-gold-color: #FFCE3E;
+
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* = 10px */
+    line-height: 1.6rem; /* = 16px */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+/* Website title */
+
+#web_title {
+    background: url(./../images/bg_title.png) center bottom no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    letter-spacing: 0.2px;
+}
+
+#web_title h1 {
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+    font-family: 'Sriracha', cursive;
+    font-size: 3.4rem;
+    color: #fffc00;
+    font-weight: 400;
+    text-align: center;
+}
+
+#web_title .breadcrumbs {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+}
+
+#web_title a {
+    color: #FFFFFF;
+    font-size: 1.6rem;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 20px 0;
+}
+.pagination-item {
+    margin: 0 12px;
+
+}
+.pagination-item--active .pagination-item__link {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+.pagination-item--active .pagination-item__link:hover {
+    background-color: #ed5c3f;
+}
+.pagination-item__link {
+    display: block;
+    --height: 40px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    min-width: 40px;
+    height: var(--height);
+    line-height: var(--height);
+    text-align: center;
+    font-weight: 500;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    margin: 0 auto;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+  
+  }
+  
+  .modal-body {
+    padding: 1rem;
+  }
+  
+  .modal-footer {
+    display: flex;
+    border-top: 1px solid #aaaaaa;
+    padding: 1rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    border-top: 1px solid #aaaaaa;
+    padding: 1rem;
+  }
+  
+  .modal-footer>:not(:first-child) {
+    margin-left: .25rem;
+  }
+  
+  .btn {
+    cursor: pointer;
+    outline: none;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: all .2s ease-in-out;
+  }
+  
+  .btn-secondary {
+    color: #292b2c;
+    background-color: #fff;
+    border-color: #ccc;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+  }
+  
+  .modal-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #aaaaaa;
+    padding: 1rem;
+  }
+  
+  h5.modal-title {
+    font-size: 1.5rem;
+  }
+  
+  .close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+/* Footer */
+
+/* Footer 1 */
+.footer-1 {
+    background: transparent url(https://www.pizzaexpress.vn/wp-admin/admin-ajax.php?action=kc_get_thumbn&type=filter_url&id=%2Fwp-content%2Fuploads%2F2018%2F05%2Ffooter_top_bg.png) top center/cover no-repeat scroll;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.wrap-column {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__rate {
+    width: 25%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.footer__rate-container {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.footer__rate-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+.footer__rate-title h3 {
+    color: #c00a27;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+.footer__rate-text p{
+    font-size: 1.4rem;
+    font-style: italic;
+    text-align: center;
+    line-height: 2.8rem;
+}
+
+
+.footer-2 {
+    background: transparent url(https://www.pizzaexpress.vn/wp-admin/admin-ajax.php?action=kc_get_thumbn&type=filter_url&id=%2Fwp-content%2Fuploads%2F2018%2F05%2Ffooter_bg.jpg) center center/cover no-repeat scroll;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-info {
+    text-align: center;
+}
+
+.footer-info__logo {
+    margin-bottom: 30px;
+}
+
+.footer-info__logo img{
+    width: 20%;
+}
+
+.footer-info__title h4{
+    color: #fff000;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 8px;
+    letter-spacing: 0.2px;
+}
+.footer-info__text {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 3.2rem;
+    padding-bottom: 15px;
+    letter-spacing: 0.6px;
+}
+.footer-info__line {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.footer-info__inner {
+    display: flex;
+}
+.footer-info__inner-container {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-info__inner-content {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-info__inner-img {
+    margin-bottom: 15px;
+}
+.footer-info__inner-title {
+    padding-bottom: 10px;
+}
+.footer-info__inner-title p{
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.footer-info__inner-button {
+    padding: 0 20px;
+}
+.footer-info__inner-button a {
+    color: #fff000;
+    background-color: rgba(255,255,255,0);
+    font-size: 1.4rem;
+    font-weight: 400;
+    border: 0 solid #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+} 

@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    color: #333;
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+}
+.background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.back_home {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 5px;
+    z-index: 1;
+    padding: 5px;
+}
+
+.back_home a {
+    display: flex;
+    text-decoration: none;
+    font-size: 2.4rem;
+    color: #666;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.back_home a i{
+    margin-top: 5px;
+}
+
+.back_home a img{
+    width: 80%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -2%;
+}
+.form {
+    width: 471px;
+    min-height: 100px;
+    padding: 12px 40px 20px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    margin: 24px;
+    align-self: center;
+    box-shadow: 0 0px 10px rgb(0 0 0 / 70%);
+}
+.form .heading {
+    font-size: 2.4rem;
+}
+.form .desc {
+    text-align: center;
+    color: #636d77;
+    font-size: 1.6rem;
+    font-weight: lighter;
+    line-height: 2.4rem;
+    margin-top: 16px;
+    font-weight: 300;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+.form-label,
+.form-message {
+    text-align: left;
+}
+
+.form-label {
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+}
+
+.form-control {
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+    font-size: 1.4rem;
+}
+
+.form-control:hover {
+    border-color: #1dbfaf;
+}
+
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+.form-message {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+
+.form-submit {
+    outline: none;
+    background-color: rgb(247, 148, 29);
+    margin-top: 12px;
+    padding: 12px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: rgb(247, 148, 29);
+    box-shadow: 0 2px 6px rgb(0 0 0 / 20%);
+}
+
+.spacer {
+    margin-top: 36px;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+.rules {
+    color: rgb(247, 148, 28);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: #000;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.hr-text:before {
+    content: "";
+    background: linear-gradient(90deg,#caced5,#caced5,#caced5);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    color: #4f4d5b;
+    font-weight: 700;
+    background-color: #f6f6f7;
+}
+
+.validater-switch {
+    font-size: 1.4rem;
+}
+.btn-switch {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #707070;
+}
+.btn-switch:hover {
+    color: rgb(247, 148, 28);
+}

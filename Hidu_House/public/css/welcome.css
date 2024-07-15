@@ -1,0 +1,299 @@
+.thuc_don {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    gap: 55px;
+    margin-left: 2%;
+}
+
+.thuc_don_pizza {
+
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.thuc_don_pizza a {
+    text-decoration: none;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    font-size: 22px;
+    color: #f2931f;
+    font-family: Sriracha;
+    font-weight: bold;
+}
+.thuc_don_pizza a:hover {
+    color: rgb(164, 17, 17);
+}
+
+.thuc_don_pizza img {
+    max-width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.new-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    margin-left: 13%;
+    margin-right: 10%;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-container {
+    background-color:white;
+    width: 250px;
+    border: 1px solid #ddd;
+    /* border-radius: 10px; */
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.box, .box_white {
+    padding: 0;
+    text-align: center;
+    height: 400px;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    /* border-bottom: 1px solid #ddd; */
+    padding-bottom: 10px;
+}
+
+.box p {
+    margin: 10px 0;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.box #Price {
+    color: #c00a27;
+    font-weight: bold;
+}
+
+.box button {
+    background-color: #b9b9b9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.box button:hover {
+    background-color: #c51832;
+}
+
+.box button a.muahang {
+    color: white;
+    text-decoration: none;
+}
+
+.box_white {
+    background-color: white;
+    border-top: 1px solid #ddd;
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: -12px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    padding: 20px;
+    height: 260px; /* Customize height */
+    overflow-y: auto; /* Add vertical scroll if content exceeds height */
+}
+
+
+.contact-container:hover .box_white {
+    display: block; /* Show on hover */
+}
+
+.contact-container:hover .box #Price,
+.contact-container:hover .box button {
+    z-index: 2; /* Ensure Price and button are above box_white */
+}
+
+.tt_chi_tiet {
+    text-align: left;
+}
+
+.tt_chi_tiet .ProductName {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.thanh_phan, .kt_gia {
+    margin-bottom: 10px;
+}
+
+.thanh_phan p, .gia span {
+    font-size: 12px;
+}
+
+.kt_gia .gia {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.kt_gia .gia img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    max-width: 100%;
+    padding: 0 0;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.combo_sp {
+    margin-top: 20px; 
+    
+}
+
+.combo_container {
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+}
+
+.combo_heading {
+    margin-bottom: 20px;
+    font-family: Sriracha;
+}
+
+.combo_text {
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+
+}
+
+.combo_title-wrap {
+    margin-bottom: 20px;
+
+}
+
+.combo_title {
+    font-size: 1.8em;
+    color:  #f2931f;
+    font-family: Sriracha;
+}
+
+.combo_item-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row; 
+    justify-content: center; 
+}
+
+.combo_item {
+    width: 250px; 
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.combo_thumb img {
+    max-width: 100%;
+    height: auto;
+}
+
+.combo_title_addcart {
+    margin-top: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.combo_title_addcart h4 {
+    font-size: 1.1em;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Sriracha;
+}
+
+.combo_title_addcart a {
+    display: inline-block; 
+    color: #fff;
+    background: #c00a27;
+    font-size: 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.combo_title_addcart a:hover {
+    color: #fff000;
+}
+
+.combo_info_price {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.combo_info_price span {
+    font-family: Sriracha;
+    color: #fff000;
+    margin-left: 20px;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.combo_desc {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: white;
+}

@@ -11,6 +11,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\View\View;
 use Session;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\WelcomeMail;
 
 class LoginController extends Controller
 {
@@ -74,6 +76,9 @@ class LoginController extends Controller
 
         Auth::login($user);
 
+        // Gửi email chào mừng
+        Mail::to($user->email)->send(new WelcomeMail($user));
+
         return redirect("dashboard")->withSuccess('Great! You have Successfully loggedin');
     }
 
@@ -116,6 +121,6 @@ class LoginController extends Controller
         Session::flush();
         Auth::logout();
 
-        return Redirect('login');
+        return Redirect('welcome');
     }
 }

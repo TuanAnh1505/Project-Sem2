@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Laravel 11 Custom User Login Page</title>
+    <title>Hidu House</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <style type="text/css">
         body {
@@ -69,7 +69,7 @@
                                                 Keep me logged in
                                             </label>
                                         </div>
-{{--                                        <a href="#!" class="link-primary text-decoration-none">{{ __('Forgot password?') }}</a>--}}
+                                        <a href="{{ route('password.request') }}"  class="link-primary text-decoration-none" style="text-decoration: none; color: #f2931f;">{{ __('Forgot password?') }}</a>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -78,7 +78,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <p class="m-0 text-secondary text-center">Don't have an account? <a href="{{ route('register') }}" class="link-primary text-decoration-none" style="color: #f2931f;">Sign up</a></p>
+                                    <p class="m-0 text-secondary text-center">Don't have an account? <a href="{{ route('register') }}" class="link-primary text-decoration-none" style="color: #f2931f;">Register</a></p>
                                 </div>
                             </div>
                         </form>
