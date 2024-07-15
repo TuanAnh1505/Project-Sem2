@@ -18,6 +18,7 @@ Route::middleware(['auth'])->group(function(){
     //Menu-Categories
     Route::prefix('category')->group(function(){
         Route::get('add',[CategoriesController::class,'create']);
+        Route::post('add',[CategoriesController::class,'store']);
     });
    });
     

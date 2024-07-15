@@ -1,29 +1,44 @@
 @extends('admin.adhome')
 @section('content')
- <div class="container-fluid pt-4 px-4">
-    <div class="row g-4">
-        <div class="col-sm-12 col-xl-6">
-            <div class="bg-light rounded h-100 p-4">
-                <h6 class="mb-4">Basic Form</h6>
-                <form>
-                    <div class="mb-3">
-                        <label for="exampleInputText" class="form-label">Category</label>
-                        <input type="text" class="form-control" id="exampleInputEmail1"
-                            aria-describedby="text">
-                        <div id="text" class="form-text">We'll never share your email with anyone else.
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="formFileMultiple" class="form-label">Multiple files input example</label>
-                        <input class="form-control" type="file" id="formFileMultiple" multiple>
-                    </div>
-                    <button class="btn btn-success">Submit</button>
-                     <button class="btn btn-danger">Cancel</button>
-                </form>
+<form action="" method="POST">
+    <div class="container">
+        <div class="page-inner">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-header">
+                  <div class="card-title">{{$title}}</div>
+                </div>
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                      <div class="form-group">
+                        <label for="text">Enter Caterorys</label>
+                        <input type="text"class="form-control" id="text" name="name_category" placeholder="Enter Category" />
+                        <small id="Text" class="form-text text-muted"
+                          >We'll never share your email with anyone
+                          else.</small
+                        >
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlFile1"
+                          >Example file input</label
+                        >
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1" name="anh_dm"/>
+                      </div>  
+                </div>
+                <div class="card-action">
+                  <button class="btn btn-success">Submit</button>
+                  <button class="btn btn-danger">Cancel</button>
+                </div>
+              </div>
+
             </div>
+          </div>
         </div>
        
-       
-    </div>
-</div>
+      </div>
+   
+      @csrf
+</form>
 @endsection

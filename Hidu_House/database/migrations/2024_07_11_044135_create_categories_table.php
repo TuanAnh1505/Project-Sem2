@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('Name',250)->unique();
             $table->string('anh_dm');
+           
         });
     }
 
