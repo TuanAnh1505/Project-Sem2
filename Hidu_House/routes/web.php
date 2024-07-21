@@ -81,7 +81,7 @@ Route::middleware(['auth'])->group(function () {
         #Cart
         Route::get('customers', [\App\Http\Controllers\Admin\CartController::class, 'index']);
         Route::get('customers/view/{customer}', [\App\Http\Controllers\Admin\CartController::class, 'show']);
-        
+
     });
 });
 
@@ -110,7 +110,7 @@ Route::get('/blog', [App\Http\Controllers\Admin\BlogController::class, 'showBlog
 
 Route::get('/test-baiviets', function () {
     $baiviets = \App\Models\Baiviet::all();
-    dd($baiviets);
+    ($baiviets);
 });
 
 Route::get('blog/{mabv}', [ App\Http\Controllers\Admin\BlogController::class, 'showDetails'])->name('blog.details');
