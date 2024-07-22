@@ -3,10 +3,10 @@
 @section('content')
 <style>
     .background-image {
-        background-image: url('/template/images/bg_title.png');
+        background-image: url('{{ asset('template/images/banner.jpg')}}');
         background-size: cover; 
         background-position: center; 
-        height: 250px;
+        height: 350px;
         position: relative;
         color: white; 
         text-align: center;
@@ -26,11 +26,11 @@
         margin: 0; 
 		font-size: 33px;
 		font-family: 'Sriracha', cursive;
-		color: #fffc00;
+		color: #f2931f;
     }
 </style>
 <div class="bg0 m-t-23 p-b-140 p-t-80">
-	<div class="background-image">
+	<div class="background-image" >
 		<div class="content">
 			<h3>{{ $title }}</h3>
 		</div>
@@ -38,7 +38,7 @@
 
 
 
-	<div class="new-container" style="margin-top:20vh;">
+	<div class="new-container" style="margin-top:10vh;">
 		<div class="container">
 			@include('products.list')
 		</div>

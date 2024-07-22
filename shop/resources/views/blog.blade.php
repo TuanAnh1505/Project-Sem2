@@ -145,7 +145,7 @@
                         <a href="#" class="pagination-item__link">...</a>
                     </li>
                     <li class="pagination-item">
-                        <a href="#" class="pagination-item__link">14</a>
+                        <a href="#" class="pagination-item__link">8</a>
                     </li>
                     <li class="pagination-item">
                         <a href="#" class="pagination-item__link">

@@ -93,7 +93,7 @@
                             </table>
                         </div>
 
-                        <div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
+                        <div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm" style="display: flex; justify-content: center; align-items: center;">
                             <input type="submit" value="Update Cart" formaction="/update-cart"
                                 class="flex-c-m stext-101 cl2 size-119 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer m-tb-10">
                             @csrf
@@ -116,7 +116,7 @@
                         <div class="flex-w flex-t bor12 p-t-15 p-b-30" style="display: flex; justify-content: center; align-items: center; height: 100%;">
                             <div class="size-100 p-r-18 p-r-0-sm w-full-ssm">
                                 <div class="p-t-15">
-                                    <span class="stext-112 cl8">Thông Tin Khách Hàng</span>
+                                    <span class="stext-112 cl8" >Thông Tin Khách Hàng</span>
                                     <div class="bor8 bg0 m-b-12">
                                         <input class="stext-111 cl8 plh3 size-111 p-lr-15" type="text" name="name" placeholder="Tên khách Hàng" required>
                                     </div>
@@ -144,6 +144,18 @@
         </div>
     </form>
 @else
-    <div class="text-center"><h2>Giỏ hàng trống</h2></div>
+    <!-- <div class="cart-empty-container" style="display: flex; justify-content: center; align-items: center; height: 20vh; margin-bottom: 5vh;">
+        <img class="cart-empty-image" src="{{ asset('template/images/giohangtrong.png') }}" alt="Giỏ hàng trống" style="max-width: 30%; height: auto;">
+    </div>
+    <div class="text-center" style="margin-bottom: 10vh;">
+        <h2>Giỏ hàng trống</h2>
+    </div> -->
+
+    <div class="text-center" style="width: 100%; height: 100%;">
+        <div class="cart-empty-container" style="display: flex; justify-content: center; align-items: center; height: 40vh; margin-bottom: 5vh;">
+            <img class="cart-empty-image" src="{{ asset('template/images/giohangtrong.png') }}" alt="Giỏ hàng trống" style="max-width: 20%; height: auto;">
+        </div>
+        <h2 style="margin-bottom: 10vh; font-family: 'Sriracha', cursive;">Giỏ hàng trống</h2>
+    </div>
 @endif
 @endsection

@@ -29,7 +29,7 @@
     }
 
     .main-menu li a {
-        font-size: 22px;
+        font-size: 18px;
         
     }
 
@@ -55,7 +55,7 @@
             <nav class="limiter-menu-desktop container">
 
                 <!-- Logo desktop -->
-                <a href="#" class="logo">
+                <a href="/" class="logo">
                     <img src="/template/images/hidu 1.png" alt="IMG-LOGO">
                 </a>
 
@@ -66,11 +66,7 @@
 
                         {!! $menusHtml !!}
 
-                        
-    
-                       <!-- <li>
-                            <a href="{{ route('carts.customer')}}">don hang</a>
-                       </li> -->
+
                         <li>
                             <a href="{{ route('blog') }}">Blog</a>
                         </li>
@@ -95,24 +91,24 @@
                                 </a>
 
                                 <div id="login-register-links" class="dropdown-content" style="display: none; text-align: center;">
-                                    <!-- This section is hidden by default -->
+                                   
                                     @auth
-                                    <!-- If user is authenticated, show logout link -->
-                                    <a class="dropdown-item logout-link" href="{{ route('auth.logout') }}"
-                                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                                        Log out
-                                    </a>
-                                    <form id="logout-form" action="{{ route('auth.logout') }}" method="POST" class="d-none">
-                                        @csrf
-                                    </form>
-                                    @else
-                                    <!-- If user is not authenticated, show login and register links -->
-                                    <a href="{{ route('auth.login') }}" class="dropdown-item text-dark" style="text-decoration: none;">
-                                        Log in
-                                    </a>
-                                    <a href="{{ route('auth.register') }}" class="dropdown-item text-dark" style="text-decoration: none;">
-                                        Register
-                                    </a>
+                                    
+                                        <a class="dropdown-item logout-link" href="{{ route('auth.logout') }}"
+                                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                            Log out
+                                        </a>
+                                        <form id="logout-form" action="{{ route('auth.logout') }}" method="POST" class="d-none">
+                                            @csrf
+                                        </form>
+                                        @else
+                                        
+                                        <a href="{{ route('auth.login') }}" class="dropdown-item text-dark" style="text-decoration: none;">
+                                            Log in
+                                        </a>
+                                        <a href="{{ route('auth.register') }}" class="dropdown-item text-dark" style="text-decoration: none;">
+                                            Register
+                                        </a>
                                     @endauth
                                 </div>
                             </div>
@@ -136,7 +132,6 @@
                         <i class="zmdi zmdi-shopping-cart"></i>
                     </div>
 
-                
             </nav>
         </div>
     </div>
@@ -148,7 +143,7 @@
     <div class="wrap-header-mobile">
         <!-- Logo moblie -->
         <div class="logo-mobile">
-            <a href="index.html"><img src="/template/images/icons/logo-01.png" alt="IMG-LOGO"></a>
+            <a href="index.html"><img src="/template/images/hidu 1.png" alt="IMG-LOGO"></a>
         </div>
 
         <!-- Icon header -->
@@ -157,7 +152,7 @@
                 <i class="zmdi zmdi-search"></i>
             </div> -->
 
-            <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart" style="background:#f2931f;" data-notify="2">
+            <div class="icon-header-item cl2 hov-cl1 trans-04 p-r-11 p-l-10 icon-header-noti js-show-cart"  data-notify="2">
                 <i class="zmdi zmdi-shopping-cart"></i>
             </div>
         </div>
@@ -189,7 +184,7 @@
     </div>
 
     <!-- Modal Search -->
-    <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+    <!-- <div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
         <div class="container-search-header">
             <button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
                 <img src="/template/images/icons/icon-close2.png" alt="CLOSE">
@@ -202,5 +197,5 @@
                 <input class="plh3" type="text" name="search" placeholder="Search...">
             </form>
         </div>
-    </div>
+    </div> -->
 </header>

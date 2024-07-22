@@ -3,20 +3,20 @@
     <a href="/admin" class="brand-link">
         <img src="/template/admin/dist/img/" alt=""
              class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Hidu House</span>
+        <span class="brand-text font-weight-light"></span>
     </a>
 
     <!-- Sidebar -->
     <div class="sidebar">
         <!-- Sidebar user (optional) -->
-        <!-- <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-                <img src="/template/admin/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                <img src="/template/images/hidu 2.png" class="img-circle elevation-2" alt="User Image" style="  width: 50px;">
             </div>
-            <div class="info">
-                <a href="#" class="d-block">Alexander Pierce</a>
+            <div class="info" style="margin-top: 5px;">
+                <a href="#" class="d-block">Hidu House</a>
             </div>
-        </div> -->
+        </div>
 
         <!-- SidebarSearch Form -->
         <div class="form-inline">

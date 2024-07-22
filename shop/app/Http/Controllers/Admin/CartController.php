@@ -37,7 +37,7 @@ class CartController extends Controller
     public function index1()
     {
         return view('carts.customer', [
-            'title' => 'Danh Sách Đơn Đặt Hàng',
+            'title' => 'Đơn Đặt Hàng',
             'customers' => $this->cart->getCustomer()
         ]);
     }

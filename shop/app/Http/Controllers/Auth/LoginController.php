@@ -40,12 +40,30 @@ class LoginController extends Controller
         return redirect("auth/login")->withError('Oops! You have entered invalid credentials');
     }
 
+    // public function postRegistration(Request $request): RedirectResponse
+    // {
+    //     $request->validate([
+    //         'name' => 'required',
+    //         'email' => 'required|email|unique:users',
+    //         'password' => 'required|min:6',
+    //     ]);
+
+    //     $data = $request->all();
+    //     $user = $this->create($data);
+
+    //     Auth::login($user);
+
+    //     // Send welcome email
+    //     Mail::to($user->email)->send(new WelcomeMail($user));
+
+    //     return redirect("/")->withSuccess('Great! You have Successfully logged in');
+    // }
     public function postRegistration(Request $request): RedirectResponse
     {
         $request->validate([
-            'name' => 'required',
+            'name' => 'required|string|max:255',
             'email' => 'required|email|unique:users',
-            'password' => 'required|min:6',
+            'password' => 'required|min:6|confirmed', // Add |confirmed here
         ]);
 
         $data = $request->all();

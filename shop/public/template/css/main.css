@@ -2210,7 +2210,9 @@ input.num-product::-webkit-inner-spin-button {
   font-family: Poppins-Regular;
   font-size: 13px;
   line-height: 1.6923;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  margin-left: 20px;
+
 }
 
 .stext-113 {
@@ -3096,8 +3098,8 @@ input.num-product::-webkit-inner-spin-button {
 
 /*---------------------------------------------*/
 .hov-btn3:hover {
-  border-color: #717fe0;
-  background-color: #717fe0;
+  /* border-color: #7bff0f; */
+  background-color: #f2931f;
   color: #fff;
 }
 

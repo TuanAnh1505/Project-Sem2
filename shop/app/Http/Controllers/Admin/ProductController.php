@@ -25,14 +25,14 @@ class ProductController extends Controller
         ]);
     }
 
-    public function create()
+    public function create(Product $product)
     {
         return view('admin.product.add', [
             'title' => 'Thêm Sản Phẩm Mới',
+            'product' => $product,
             'menus' => $this->productService->getMenu()
         ]);
     }
-
 
     public function store(ProductRequest $request)
     {
@@ -50,8 +50,17 @@ class ProductController extends Controller
         ]);
     }
 
+    // public function update(Request $request, Product $product)
+    // {
+    //     $result = $this->productService->update($request, $product);
+    //     if ($result) {
+    //         return redirect('/admin/products/list');
+    //     }
 
-    public function update(Request $request, Product $product)
+    //     return redirect()->back();
+    // }
+
+    public function update(ProductRequest $request, Product $product)
     {
         $result = $this->productService->update($request, $product);
         if ($result) {
@@ -60,7 +69,6 @@ class ProductController extends Controller
 
         return redirect()->back();
     }
-
 
     public function destroy(Request $request)
     {
@@ -72,6 +80,6 @@ class ProductController extends Controller
             ]);
         }
 
-        return response()->json([ 'error' => true ]);
+        return response()->json(['error' => true]);
     }
 }

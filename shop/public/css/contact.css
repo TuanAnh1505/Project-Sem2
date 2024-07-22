@@ -40,7 +40,7 @@
 }
 
 .result__item-active {
-    background: #ee1b3e;
+    background: #ee1b3e;    
     width: 100%;
     color: #FFFFFF;
     position: relative;
@@ -81,7 +81,7 @@
     margin-bottom: 10px;
 }
 .result__item-infor .large_map{
-    color: #893129;
+    color: #f2931f;
 }
 .result__item-infor .large_map i{
     margin-right: 5px;

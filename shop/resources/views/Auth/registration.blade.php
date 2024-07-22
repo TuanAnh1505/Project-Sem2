@@ -75,21 +75,23 @@
                                     </div>
                                     @error('password')
                                     <span class="text-danger" role="alert">
-                              <strong>{{ $message }}</strong>
-                          </span>
+                                        <strong>{{ $message }}</strong>
+                                    </span>
                                     @enderror
                                 </div>
+                                
                                 <div class="col-12">
                                     <div class="form-floating mb-3">
-                                        <input type="password" class="form-control @error('password_confirmation') is-invalid @enderror" name="password_confirmation" id="password_confirmation" value="" placeholder="password_confirmation" required>
+                                        <input type="password" class="form-control @error('password_confirmation') is-invalid @enderror" name="password_confirmation" id="password_confirmation" value="" placeholder="Confirm Password" required>
                                         <label for="password_confirmation" class="form-label">{{ __('Confirm Password') }}</label>
                                     </div>
                                     @error('password_confirmation')
                                     <span class="text-danger" role="alert">
-                              <strong>{{ $message }}</strong>
-                          </span>
+                                        <strong>{{ $message }}</strong>
+                                    </span>
                                     @enderror
                                 </div>
+
                                 <div class="col-12">
                                     <div class="d-grid my-3">
                                         <button class="btn btn-primary btn-lg" style="background-color: #f2931f; border-color: #f2931f; font-size: 18px; color: white;">{{ __('Register') }}</button>

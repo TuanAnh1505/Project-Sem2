@@ -35,14 +35,14 @@
                         </div>
                     </td>
                     <td class="column-2">{{ $cart->product->name }}</td>
-                    <td class="column-3">{{ number_format($cart->price, 0, '', '.') }}</td>
+                    <td class="column-3">{{ number_format($cart->price, 0, '', '.') }}<a>.VND</a></td>
                     <td class="column-4">{{ $cart->pty }}</td>
-                    <td class="column-5">{{ number_format($price, 0, '', '.') }}</td>
+                    <td class="column-5">{{ number_format($price, 0, '', '.') }}<a>.VND</a></td>
                 </tr>
             @endforeach
                 <tr>
                     <td colspan="4" class="text-right">Tổng Tiền</td>
-                    <td>{{ number_format($total, 0, '', '.') }}</td>
+                    <td>{{ number_format($total, 0, '', '.') }}<a>.VND</a></td>
                 </tr>
             </tbody>
         </table>

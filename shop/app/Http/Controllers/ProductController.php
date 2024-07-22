@@ -5,10 +5,12 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Services\Product\ProductService;
 use App\Models\Menu;
+use App\Models\Slider;
 
 class ProductController extends Controller
 {
     protected $productService;
+
 
     public function __construct(ProductService $productService)
     {

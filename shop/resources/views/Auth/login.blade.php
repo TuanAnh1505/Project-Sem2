@@ -77,7 +77,9 @@
                                         <button class="btn btn-primary btn-lg" style="background-color: #f2931f; border-color: #f2931f; font-size: 18px; color: white;">{{ __('Login') }}</button>
                                     </div>
                                 </div>
-                                
+                                <div class="col-12">
+                                    <p class="m-0 text-secondary text-center">Have an account? <a href="{{ route('auth.register') }}" class="link-primary text-decoration-none" style="color: #f2931f;">Register</a></p>
+                                </div>
                             </div>
                         </form>
                     </div>

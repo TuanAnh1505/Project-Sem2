@@ -32,7 +32,11 @@
                     <div class="flex-col-l-m p-t-100 p-b-30 respon5">
                         <div class="layer-slick1 animated visible-false" data-appear="fadeInDown" data-delay="0">
                         </div>
-                       
+                        <!-- <div class="layer-slick1 animated visible-false" data-appear="fadeInUp" data-delay="800">
+                            <h2 class="ltext-201 cl2 p-t-19 p-b-43 respon1">
+                                {{ $slider->name }}
+                            </h2>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -50,7 +54,7 @@
         <div class="container ">
             <div class="p-b-10 p-t-30 text-center">
                 <h5 class="ltext-103 c12">
-                    Product Overview
+                    Product View
                 </h5>
             </div>
 

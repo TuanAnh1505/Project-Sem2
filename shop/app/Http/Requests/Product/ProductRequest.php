@@ -25,15 +25,22 @@ class ProductRequest extends FormRequest
     {
         return [
             'name' => 'required',
-            'thumb' => 'required'
+            'thumb' => 'required',
+            // 'active' => 'required|in:1' // Ensure active is set to 'Có' (value = 1)
         ];
     }
 
+    /**
+     * Get the custom validation messages.
+     *
+     * @return array
+     */
     public function messages()
     {
         return [
             'name.required' => 'Vui lòng nhập tên sản phẩm',
-            'thumb.required' => 'Ảnh đại diện không được trống'
+            'thumb.required' => 'Ảnh đại diện không được trống',
+            // 'active.in' => 'Vui lòng chọn "Có" cho Kích Hoạt.',
         ];
     }
 }

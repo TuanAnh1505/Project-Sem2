@@ -24,14 +24,16 @@ class CreateFormRequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required'
+            'name' => 'required',
+            // 'active' => 'required|in:1'
         ];
     }
 
     public function messages() : array
     {
         return [
-            'name.required' => 'Vui lòng nhập tên Danh Mục'
+            'name.required' => 'Vui lòng nhập tên Danh Mục',
+            // 'active.in' => 'Vui lòng chọn "Có" cho Kích Hoạt.'
         ];
     }
 }

@@ -13,10 +13,11 @@
             max-width: 100%;
         }
         footer h4 {
-            font-size: 1.5rem;
+            font-size: 18px;
             margin-top: 40px;
             color: #f2931f;
             margin-bottom: 30px;
+            font-weight: bold;
         }
         footer p {
             margin: 5px 0;

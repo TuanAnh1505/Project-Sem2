@@ -52,13 +52,13 @@
 <body>
     <div class="email-container">
         <div class="header">
-            <img src="{{ asset('images/hidu 1.png') }}" alt="{{ config('app.name') }} Logo">
+            <img src="{{ asset('template/images/hidu 1.png') }}" alt="{{ config('app.name') }} Logo">
         </div>
         <div class="content">
             <h1>Welcome, {{ $name }}!</h1>
             <p>Thank you for registering at our site. We are excited to have you join our community.</p>
             <p>To get started, please visit your dashboard by clicking the button below:</p>
-            <a href="{{ url('/dashboard') }}" class="btn">Go to Dashboard</a>
+            <a href="{{ url('/') }}" class="btn">Go to Dashboard</a>
             <p>If you have any questions, feel free to reply to this email or contact our support team.</p>
         </div>
         <div class="footer">

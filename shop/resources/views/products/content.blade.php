@@ -5,10 +5,10 @@
         font-size: 18px; 
     }
     .background-image {
-        background-image: url('/template/images/bg_title.png');
+        background-image: url('/template/images/banner4.jpg');
         background-size: cover; 
         background-position: center; 
-        height: 250px;
+        height: 40%;
         position: relative;
         color: white; 
         text-align: center;
@@ -27,16 +27,16 @@
     }
     .content h3 {
         margin: 0; 
-		font-size: 33px;
+		font-size: 40px;
 		font-family: 'Sriracha', cursive;
-		color: #fffc00;
+		color: whitesmoke;
     }
 
 </style>
     
     <div class="background-image">
 		<div class="content">
-			<h3>//</h3>
+			<h3>Product Details</h3>
 		</div>
 	</div>
 
@@ -176,14 +176,19 @@
                     <!-- Nav tabs -->
                     <ul class="nav nav-tabs" role="tablist">
                         <li class="nav-item p-b-10" >
-                            <a class="nav-link active" style=" font-size: 20px;" data-toggle="tab" href="#description" role="tab">Description</a>
+                            <a class="nav-link active" style=" font-size: 20px; font-weight: bold;" data-toggle="tab" href="#description" role="tab">Description</a>
                         </li>
-
                         
                     </ul>
 
                     <!-- Tab panes -->
                     <div class="tab-content p-t-43" style="font-size: 18px;">
+                        <div style="display: flex; align-items: center;">
+                            <img src="{{ asset($product->thumb) }}" alt="IMG-PRODUCT" style="width: 10%; margin-left: 15vh; margin-bottom: 5vh;">
+                            <h4 class="mtext-105 cl2 js-name-detail p-b-14" style="color: #f2931f; margin-left: 4vh;">
+                                {{ $title }}
+                            </h4>
+                        </div>
                         <!-- - -->
                         <div class="tab-pane fade show active" id="description" role="tabpanel">
                             <div class="how-pos2 p-lr-15-md">

@@ -97,7 +97,7 @@ class MenuService
 
         return $query
             ->orderByDesc('id')
-            ->paginate(12)
+            ->paginate(16)
             ->withQueryString();
     }
 }

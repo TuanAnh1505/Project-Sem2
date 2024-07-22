@@ -6,6 +6,7 @@
         <tr>
             <th style="width: 50px">ID</th>
             <th>Tên Sản Phẩm</th>
+            <th>Ảnh Sản phẩm</th>
             <th>Danh Mục</th>
             <th>Giá Gốc</th>
             <th>Giá Khuyến Mãi</th>
@@ -19,6 +20,9 @@
             <tr>
                 <td>{{ $product->id }}</td>
                 <td>{{ $product->name }}</td>
+                <th><a href="{{ $product->thumb }}" target="_blank">
+                        <img src="{{asset( $product->thumb )}}" height="40px">
+                    </a></th>
                 <td>{{ $product->menu->name }}</td>
                 <td>{{ $product->price }}</td>
                 <td>{{ $product->price_sale }}</td>

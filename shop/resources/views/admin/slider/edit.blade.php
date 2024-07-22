@@ -20,7 +20,7 @@
 
             <div class="form-group">
                 <label for="menu">Ảnh Sản Phẩm</label>
-                <input type="file"  class="form-control" id="upload">
+                <input type="file"  class="form-control" id="upload" onchange="displayImage()">
                 <div id="image_show">
                     <a href="{{ $slider->thumb }}">
                         <img src="{{ $slider->thumb }}" width="100px">
@@ -28,7 +28,26 @@
                 </div>
                 <input type="hidden" name="thumb" value="{{ $slider->thumb }}" id="thumb">
             </div>
+            <script>
+                function displayImage() {
+                    const input = document.getElementById('upload');
+                    const imageDiv = document.getElementById('image_show');
 
+                    if (input.files && input.files[0]) {
+                        setTimeout(() => {
+                            const reader = new FileReader();
+                            reader.onload = function(e) {
+                                const image = document.createElement('img');
+                                image.setAttribute('src', e.target.result);
+                                image.setAttribute('width', '100px');
+                                imageDiv.innerHTML = '';
+                                imageDiv.appendChild(image);
+                            };
+                            reader.readAsDataURL(input.files[0]);
+                        }, 200);
+                    }
+                }
+            </script>
 
             <div class="form-group">
                 <label for="menu">Sắp Xếp</label>

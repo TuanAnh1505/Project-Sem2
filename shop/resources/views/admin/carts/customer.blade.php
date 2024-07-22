@@ -28,7 +28,7 @@
                        onclick="removeRow({{ $customer->id }}, '/admin/customers/destroy')">
                         <i class="fas fa-trash"></i>
                     </a>
-                </td>
+                </td> 
             </tr>
         @endforeach
         </tbody>
