@@ -8,6 +8,7 @@
             <li>Địa chỉ: <strong>{{ $customer->address }}</strong></li>
             <li>Email: <strong>{{ $customer->email }}</strong></li>
             <li>Ghi chú: <strong>{{ $customer->content }}</strong></li>
+            <li>Trạng thái đơn hàng: <strong>{{ $customer->order_status}}</strong></li>
         </ul>
     </div>
 

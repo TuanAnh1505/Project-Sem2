@@ -9,6 +9,7 @@
             <th>Số Điện Thoại</th>
             <th>Email</th>
             <th>Ngày Đặt hàng</th>
+            <th>Trạng Thái Đơn Hàng</th>
             <th style="width: 100px">&nbsp;</th>
         </tr>
         </thead>
@@ -20,6 +21,8 @@
                 <td>{{ $customer->phone }}</td>
                 <td>{{ $customer->email }}</td>
                 <td>{{ $customer->created_at }}</td>
+                <td>{{ $customer->order_status }}</td> <!-- Assuming 'order_status' is the field for order status -->
+                <td>
                 <td>
                     <a class="btn btn-primary btn-sm" href="/admin/customers/view/{{ $customer->id }}">
                         <i class="fas fa-eye"></i>
